@@ -10,10 +10,11 @@ footer {
 }
 
 h2 {
-    font-family: SourceCodePro-Black;
-    font-size: 22px;
-    color: #fff;
-  }
+  font-family: 'Source Code Pro';
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+}
 
   h1,
   h2,
@@ -59,7 +60,8 @@ h2 {
   }
   .menu-item {
     margin: 5px 10px;
-    font-family: SourceCodePro-Medium;
+    font-family: 'Source Code Pro';
+    font-weight: 500;
     font-size: 14px;
   }
 
