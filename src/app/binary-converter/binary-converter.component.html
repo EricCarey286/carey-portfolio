@@ -1,0 +1,17 @@
+<div class="container">
+<h2>Binary to Decimal Converter</h2>
+    <form #binaryConverter="ngForm" (ngSubmit)="onSubmit(binaryConverter)">
+        <div class="form-group">
+            <label for="binaryNumber">Enter a binary number</label><br>
+            <input type="text" id="binaryNumber" name="binaryNumber" placeholder="Enter at least one 1 or 0" ngModel><br>
+            
+            <button class="btn btn-primary" type="submit">Convert</button>
+        </div>
+        <div class="form-group">
+            <Label>Decimal Output:</Label><br>
+            <div id="decimalOutputContainer">
+                <!--<p id="decimalOutput">{{decimalOutput}}</p>-->
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,41 @@
+h1, h2, h3, h4, h5, h6,
+footer, input, label {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #fff;
+    margin: 8px 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  font-family: 'Source Code Pro';
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+}
+
+h3,h4,h6 {
+    font-family: Helvetica !important;
+}
+
+p {
+    margin: 0;
+}
+::placeholer {
+    color: #5f5f5f
+}
+
+input[type=text] 
+{ 
+    color: #0f0f0f;
+}
+
+#decimalOutputContainer {
+    background-color: #fff;
+}
+
+#decimalOutput {
+    color: #0f0f0f;
+}
